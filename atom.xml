@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>代码战士</title>
+  
+  <subtitle>Arm yourself with Code</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2019-06-09T11:41:21.880Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>辰冬</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2019/06/09/hello-world/"/>
+    <id>http://yoursite.com/2019/06/09/hello-world/</id>
+    <published>2019-06-09T11:41:21.880Z</published>
+    <updated>2019-06-09T11:41:21.880Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>hexo操作</title>
+    <link href="http://yoursite.com/2019/06/09/Demo/"/>
+    <id>http://yoursite.com/2019/06/09/Demo/</id>
+    <published>2019-06-09T00:16:25.000Z</published>
+    <updated>2019-06-09T13:52:30.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>安装完成执行以下命令：</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure><p>hexo建站</p><p>输入以下指令</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">hexo  init   blog    #初始化blog文件</span><br><span class="line">cd   blog               #从当前位置移动到blog文件夹</span><br><span class="line"></span><br><span class="line">npm  install           #安装</span><br></pre></td></tr></table></figure><p>注意：hexo  init初始化必须是一个空文件夹，上述命令指定在blog文件夹中建站</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo   g              #生成静态文件</span><br><span class="line">hexo   s              #启动服务器，默认情况下，访问网址为： http://localhost:4000/</span><br></pre></td></tr></table></figure><p>打开当前网页输入地址：<a href="http://localhost:4000/" target="_blank" rel="noopener">http://localhost:4000/</a>   能看到如下外面说明成功了</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;安装完成执行以下命令：&lt;/p&gt;
+&lt;figure class=&quot;highlight shell&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;c
+      
+    
+    </summary>
+    
+      <category term="hexo操作" scheme="http://yoursite.com/categories/hexo%E6%93%8D%E4%BD%9C/"/>
+    
+    
+      <category term="hexo操作" scheme="http://yoursite.com/tags/hexo%E6%93%8D%E4%BD%9C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>我的第一遍</title>
+    <link href="http://yoursite.com/2019/01/17/README/"/>
+    <id>http://yoursite.com/2019/01/17/README/</id>
+    <published>2019-01-17T00:38:25.000Z</published>
+    <updated>2019-01-17T12:45:30.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>第一遍</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;第一遍&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+      <category term="杂谈" scheme="http://yoursite.com/tags/%E6%9D%82%E8%B0%88/"/>
+    
+      <category term="记事" scheme="http://yoursite.com/tags/%E8%AE%B0%E4%BA%8B/"/>
+    
+  </entry>
+  
+</feed>
